@@ -1,14 +1,24 @@
-'''Напишите программу которая выводит только нечётные числа с помощью 
-рекурсии.'''
+'''Создайте функцию сложения, затем функцию вычитания двух чисел...
 
-from random import randint
+Создайте 3-ю функцию которая вызывает первые 2 внутри себя.'''
 
-def rec_even(num):
-    rand_even = randint(0, 499) * 2 + 1
-    if num > 0:
-        print(rand_even, end=' ')
-        rec_even(num-1)
-    else:
-        pass
+a = int(input("Введите первое число: "))
+b = int(input("Введитевторое число: "))
 
-rec_even(10)
+def summ():
+
+    print(a + b)
+
+summ()
+
+def minus():
+
+    print(a - b)
+
+minus()
+
+def mult():
+	
+	
+
+mult()

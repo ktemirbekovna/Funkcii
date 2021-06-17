@@ -1,12 +1,21 @@
-'''Напишите функцию которая принимает SET и рекурсивно удаляет оттуда 
-по одному элементу при запуске.'''
+'''Спросите у пользователя имя файла. Создайте функцию которая создаёт 
+файл с именем которое передал пользователь. Присвойте 
+ИМЯ функции к переменной и вызывайте функцию через переменную.'''
+
+a = input("Введите название файла: ")
+
+def open_file( ):
+	b = open('/home/karlygach/Desktop/{a}.txt', 'w')
+	f.close
+    a = open_file()
+    print(a)
+open_file()
 
 
-def set_del(a):
-    if a:
-        a.pop()
-        print(a)
-        set_del(a)
-c = { 10,17,"sumka",85,42,"okno","konder",}
-print(c)
-set_del(c)
+
+# a = input('Имя файла')
+# def main():
+#  f = open (f'/users/mac/Desktop/{a}.txt', 'w')
+#  f.close
+# a = main()
+# print(a)
